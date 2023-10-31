@@ -1,0 +1,64 @@
+Sample --> python train.py --data_dir flowers --learning_rate 0.01 --arch "vgg13" --epochs 3 --gpu
+Starting the program with the following parameters:
+Data directory: flowers
+Architecture: vgg13
+Learning rate: 0.01
+Hidden units: 500
+Save directory: checkpoint.pth
+GPU enabled: True
+Number of epochs: 3
+Executing main
+Starting model training
+Executing create_model with architecture: vgg13
+Successfully loaded pretrained model vgg13
+Finished executing create_model
+Starting validation
+Validation complete
+Epoch: 1/3, Training Loss: 10.160, Validation Loss: 4.542, Validation Accuracy: 0.073
+Starting validation
+Validation complete
+Epoch: 1/3, Training Loss: 4.371, Validation Loss: 4.215, Validation Accuracy: 0.102
+Starting validation
+Validation complete
+Epoch: 1/3, Training Loss: 4.418, Validation Loss: 4.366, Validation Accuracy: 0.094
+Starting validation
+Validation complete
+Epoch: 1/3, Training Loss: 4.369, Validation Loss: 4.395, Validation Accuracy: 0.093
+Starting validation
+Validation complete
+Epoch: 1/3, Training Loss: 4.475, Validation Loss: 4.273, Validation Accuracy: 0.089
+Starting validation
+Validation complete
+Epoch: 2/3, Training Loss: 3.789, Validation Loss: 4.160, Validation Accuracy: 0.107
+Starting validation
+Validation complete
+Epoch: 2/3, Training Loss: 4.398, Validation Loss: 4.176, Validation Accuracy: 0.099
+Starting validation
+Validation complete
+Epoch: 2/3, Training Loss: 4.243, Validation Loss: 4.112, Validation Accuracy: 0.120
+Starting validation
+Validation complete
+Epoch: 2/3, Training Loss: 4.337, Validation Loss: 4.243, Validation Accuracy: 0.091
+Starting validation
+Validation complete
+Epoch: 2/3, Training Loss: 4.253, Validation Loss: 4.185, Validation Accuracy: 0.095
+Starting validation
+Validation complete
+Epoch: 3/3, Training Loss: 3.229, Validation Loss: 4.247, Validation Accuracy: 0.097
+Starting validation
+Validation complete
+Epoch: 3/3, Training Loss: 4.333, Validation Loss: 4.173, Validation Accuracy: 0.111
+Starting validation
+Validation complete
+Epoch: 3/3, Training Loss: 4.257, Validation Loss: 4.217, Validation Accuracy: 0.096
+Starting validation
+Validation complete
+Epoch: 3/3, Training Loss: 4.238, Validation Loss: 4.190, Validation Accuracy: 0.105
+Starting validation
+Validation complete
+Epoch: 3/3, Training Loss: 4.345, Validation Loss: 4.314, Validation Accuracy: 0.099
+Saving checkpoint
+Checkpoint saved
+Checkpoint saved at checkpoint.pth
+Model training complete
+Finished executing main
